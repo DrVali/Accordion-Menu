@@ -11,13 +11,13 @@ for (let i = 0; i < myAcc.length; i++) {
 		}
 	}
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    var myContent = this.nextElementSibling;
+    if (myContent.style.display === "block") {
+      myContent.style.display = "none";
 	  mySpan[i].innerHTML="+";
 	  
     } else {
-      panel.style.display = "block";
+      myContent.style.display = "block";
 	  mySpan[i].innerHTML="-";
 	  
     }
