@@ -22,7 +22,7 @@ body{
   border: 1px solid #424141;
 }
 
- .accordion-header:hover {
+ .accordion-header:hover ,.active{
   background-color: bisque; 
 }
 
@@ -37,7 +37,7 @@ body{
   border: 3px solid #424141;
   text-align: justify;
   margin: 0px auto ;
-  transition: 1s ease-in all;
+  transition: 10s ease-in all;
 }
 .accardionSpan{
   float:right;
