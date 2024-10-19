@@ -16,10 +16,12 @@ for (let i = 0; i < myAcc.length; i++) {
     if (panel.style.display === "block") {
       panel.style.display = "none";
 	  mySpan[i].innerHTML="+";
+	  this.classList.toggle("active");
 	  
     } else {
       panel.style.display = "block";
-	  mySpan[i].innerHTML="-";  
+	  mySpan[i].innerHTML="-";
+	  
     }
   });
 }
