@@ -12,14 +12,14 @@ for (let i = 0; i < myAcc.length; i++) {
 		}
 	}
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    let allOpen = this.nextElementSibling;
+    if (allOpen.style.display === "block") {
+      allOpen.style.display = "none";
 	  mySpan[i].innerHTML="+";
 	  this.classList.toggle("active");
 	  
     } else {
-      panel.style.display = "block";
+      allOpen.style.display = "block";
 	  mySpan[i].innerHTML="-";
 	  
     }
